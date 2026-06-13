@@ -1,5 +1,5 @@
 [[plugin]]
-id = "peruzzoarthur/nixos-logo"
+id = "peruzzoarthur/nix-logo"
 name = "Nixos Logo"
 version = "1.0.0"
 author = "peruzzoarthur"
