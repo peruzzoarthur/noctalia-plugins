@@ -1,7 +1,7 @@
 # Nix Logo — display the Nix logo (or any image) in your bar.
 # Adapted to the new Noctalia plugin manifest format.
 
-id = "community/nix-logo"
+id = "peruzzoarthur/nix-logo"
 name = "Nix Logo"
 version = "1.0.0"
 min_noctalia = "5.0.0"
