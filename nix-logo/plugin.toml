@@ -1,0 +1,23 @@
+# Nix Logo — display the Nix logo (or any image) in your bar.
+# Adapted to the new Noctalia plugin manifest format.
+
+id = "community/nix-logo"
+name = "Nix Logo"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "community"
+license = "MIT"
+tags = ["nix", "logo", "image"]
+icon = "image"
+description = "Display the Nix logo (or any image) in the bar."
+
+[[widget]]
+id = "nix-logo"
+entry = "nix-logo.luau"
+
+  [[widget.setting]]
+  key = "image_path"
+  type = "file"
+  label = "Image path"
+  description = "Path to the image file (png, jpg, svg, etc.). Defaults to the bundled Nix logo."
+  default = "image.svg"
