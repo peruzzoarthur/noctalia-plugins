@@ -2,4 +2,4 @@
 -- New-format entry: the manifest lives in plugin.toml, and this file only
 -- handles presentation.
 
-barWidget.setImage(barWidget.getConfig("image_path"))
+barWidget.setImage(noctalia.getConfig("image_path"))

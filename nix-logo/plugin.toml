@@ -3,10 +3,11 @@
 
 id = "peruzzoarthur/nix-logo"
 name = "Nix Logo"
-version = "1.0.0"
-min_noctalia = "5.0.0"
+version = "1.0.1"
+plugin_api = 3
 author = "community"
 license = "MIT"
+dependencies = []
 tags = ["nix", "logo", "image"]
 icon = "image"
 description = "Display the Nix logo (or any image) in the bar."
@@ -18,6 +19,6 @@ entry = "nix-logo.luau"
   [[widget.setting]]
   key = "image_path"
   type = "file"
-  label = "Image path"
-  description = "Path to the image file (png, jpg, svg, etc.). Defaults to the bundled Nix logo."
+  label_key = "settings.image_path.label"
+  description_key = "settings.image_path.description"
   default = "image.svg"

@@ -1,9 +1,10 @@
 [[plugin]]
 id = "peruzzoarthur/nix-logo"
 name = "Nixos Logo"
-version = "1.0.0"
+version = "1.0.1"
 author = "peruzzoarthur"
 license = "MIT"
+plugin_api = 3
 icon = "image"
 description = "Nixos logo for styling the bar"
 min_noctalia = "5.0.0"

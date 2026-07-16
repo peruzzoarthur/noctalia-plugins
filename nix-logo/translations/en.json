@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "image_path": {
+      "label": "Image path",
+      "description": "Path to the image file (png, jpg, svg, etc.). Defaults to the bundled Nix logo."
+    }
+  }
+}
