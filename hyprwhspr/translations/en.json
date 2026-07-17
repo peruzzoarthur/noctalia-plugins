@@ -1,0 +1,8 @@
+{
+  "tooltip": {
+    "recording": "Recording — click to stop",
+    "transcribing": "Transcribing…",
+    "error_missing": "hyprwhspr-rs not found — enable services.hyprwhspr-rs and make sure the binary is on PATH",
+    "error_daemon": "hyprwhspr-rs daemon unreachable — is the hyprwhspr-rs service running?"
+  }
+}

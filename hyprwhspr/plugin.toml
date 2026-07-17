@@ -1,0 +1,14 @@
+id           = "peruzzoarthur/hyprwhspr"
+name         = "Hyprwhspr"
+version      = "1.0.0"
+plugin_api   = 3
+author       = "peruzzoarthur"
+license      = "MIT"
+icon         = "microphone"
+description  = "Bar indicator for hyprwhspr-rs voice dictation."
+tags         = ["dictation", "voice", "hyprland"]
+dependencies = ["hyprwhspr-rs"]
+
+[[widget]]
+id    = "hyprwhspr"
+entry = "widget.luau"

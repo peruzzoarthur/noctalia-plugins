@@ -10,3 +10,15 @@ description = "Nixos logo for styling the bar"
 min_noctalia = "5.0.0"
 tags = ["nixos"]
 
+
+[[plugin]]
+id = "peruzzoarthur/hyprwhspr"
+name = "Hyprwhspr"
+version = "1.0.0"
+author = "peruzzoarthur"
+license = "MIT"
+plugin_api = 3
+icon = "microphone"
+description = "Bar indicator for hyprwhspr-rs voice dictation."
+tags = ["dictation", "voice", "hyprland"]
+dependencies = ["hyprwhspr-rs"]
