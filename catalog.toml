@@ -22,3 +22,15 @@ icon = "microphone"
 description = "Bar indicator for hyprwhspr-rs voice dictation."
 tags = ["dictation", "voice", "hyprland"]
 dependencies = ["hyprwhspr-rs"]
+
+[[plugin]]
+id = "peruzzoarthur/keyviz"
+name = "Key Visualizer"
+version = "0.1.0"
+author = "h-jangra"
+license = "MIT"
+plugin_api = 13
+icon = "keyboard"
+description = "Fork of h-jangra/keyviz: sees uinput passthroughs, ignores gaming mice, picks up hotplugged keyboards."
+tags = ["utility", "bar", "service", "shortcut", "panel"]
+dependencies = ["python3"]
